@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D73B3D182CF3F412EEE41F0 /* Pods_FridaExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71C511589DC2FA08AD663F2 /* Pods_FridaExample.framework */; };
+		B34CC45F1F7D079600F73D4B /* FridaGadget.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B34CC45E1F7D079600F73D4B /* FridaGadget.dylib */; };
+		B34CC4631F7D089300F73D4B /* FridaGadget.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = B34CC45E1F7D079600F73D4B /* FridaGadget.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		B3E55A6A1F42AB230034F97F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E55A691F42AB230034F97F /* main.m */; };
+		B3E55A6D1F42AB230034F97F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E55A6C1F42AB230034F97F /* AppDelegate.m */; };
+		B3E55A701F42AB230034F97F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E55A6F1F42AB230034F97F /* ViewController.m */; };
+		B3E55A731F42AB230034F97F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E55A711F42AB230034F97F /* Main.storyboard */; };
+		B3E55A751F42AB230034F97F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E55A741F42AB230034F97F /* Assets.xcassets */; };
+		B3E55A781F42AB230034F97F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E55A761F42AB230034F97F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B34CC4621F7D088900F73D4B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B34CC4631F7D089300F73D4B /* FridaGadget.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A71C511589DC2FA08AD663F2 /* Pods_FridaExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FridaExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34CC45E1F7D079600F73D4B /* FridaGadget.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = FridaGadget.dylib; path = ../FridaGadget.dylib; sourceTree = "<group>"; };
+		B3E55A651F42AB230034F97F /* FridaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FridaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E55A691F42AB230034F97F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3E55A6B1F42AB230034F97F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3E55A6C1F42AB230034F97F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3E55A6E1F42AB230034F97F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3E55A6F1F42AB230034F97F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3E55A721F42AB230034F97F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3E55A741F42AB230034F97F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3E55A771F42AB230034F97F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3E55A791F42AB230034F97F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C06D26479FD59D7DCF2F3B7A /* Pods-FridaExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FridaExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-FridaExample/Pods-FridaExample.release.xcconfig"; sourceTree = "<group>"; };
+		EC8C84E3748CB32FA53CDA29 /* Pods-FridaExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FridaExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FridaExample/Pods-FridaExample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3E55A621F42AB230034F97F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34CC45F1F7D079600F73D4B /* FridaGadget.dylib in Frameworks */,
+				7D73B3D182CF3F412EEE41F0 /* Pods_FridaExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D38D129635694F8542A08AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC8C84E3748CB32FA53CDA29 /* Pods-FridaExample.debug.xcconfig */,
+				C06D26479FD59D7DCF2F3B7A /* Pods-FridaExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3E55A5C1F42AB230034F97F = {
+			isa = PBXGroup;
+			children = (
+				B3E55A671F42AB230034F97F /* FridaExample */,
+				B3E55A661F42AB230034F97F /* Products */,
+				8D38D129635694F8542A08AF /* Pods */,
+				C272ACCD0570F6114394DE3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3E55A661F42AB230034F97F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3E55A651F42AB230034F97F /* FridaExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3E55A671F42AB230034F97F /* FridaExample */ = {
+			isa = PBXGroup;
+			children = (
+				B3E55A6B1F42AB230034F97F /* AppDelegate.h */,
+				B3E55A6C1F42AB230034F97F /* AppDelegate.m */,
+				B3E55A6E1F42AB230034F97F /* ViewController.h */,
+				B3E55A6F1F42AB230034F97F /* ViewController.m */,
+				B3E55A711F42AB230034F97F /* Main.storyboard */,
+				B3E55A741F42AB230034F97F /* Assets.xcassets */,
+				B3E55A761F42AB230034F97F /* LaunchScreen.storyboard */,
+				B3E55A791F42AB230034F97F /* Info.plist */,
+				B3E55A681F42AB230034F97F /* Supporting Files */,
+			);
+			path = FridaExample;
+			sourceTree = "<group>";
+		};
+		B3E55A681F42AB230034F97F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3E55A691F42AB230034F97F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C272ACCD0570F6114394DE3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B34CC45E1F7D079600F73D4B /* FridaGadget.dylib */,
+				A71C511589DC2FA08AD663F2 /* Pods_FridaExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3E55A641F42AB230034F97F /* FridaExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3E55A7C1F42AB230034F97F /* Build configuration list for PBXNativeTarget "FridaExample" */;
+			buildPhases = (
+				708A26C2CFBBD6EBAC04C4F2 /* [CP] Check Pods Manifest.lock */,
+				B3E55A611F42AB230034F97F /* Sources */,
+				B3E55A621F42AB230034F97F /* Frameworks */,
+				B3E55A631F42AB230034F97F /* Resources */,
+				2459DADD5DBDD3E23F7C90DF /* [CP] Embed Pods Frameworks */,
+				9C997749005B2D4FAE21FBC7 /* [CP] Copy Pods Resources */,
+				B34CC4621F7D088900F73D4B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FridaExample;
+			productName = FridaExample;
+			productReference = B3E55A651F42AB230034F97F /* FridaExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3E55A5D1F42AB230034F97F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Bytedance;
+				TargetAttributes = {
+					B3E55A641F42AB230034F97F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8KMZQX7T4V;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B3E55A601F42AB230034F97F /* Build configuration list for PBXProject "FridaExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3E55A5C1F42AB230034F97F;
+			productRefGroup = B3E55A661F42AB230034F97F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3E55A641F42AB230034F97F /* FridaExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3E55A631F42AB230034F97F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E55A781F42AB230034F97F /* LaunchScreen.storyboard in Resources */,
+				B3E55A751F42AB230034F97F /* Assets.xcassets in Resources */,
+				B3E55A731F42AB230034F97F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2459DADD5DBDD3E23F7C90DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FridaExample/Pods-FridaExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		708A26C2CFBBD6EBAC04C4F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C997749005B2D4FAE21FBC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FridaExample/Pods-FridaExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3E55A611F42AB230034F97F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E55A701F42AB230034F97F /* ViewController.m in Sources */,
+				B3E55A6D1F42AB230034F97F /* AppDelegate.m in Sources */,
+				B3E55A6A1F42AB230034F97F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3E55A711F42AB230034F97F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3E55A721F42AB230034F97F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3E55A761F42AB230034F97F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3E55A771F42AB230034F97F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3E55A7A1F42AB230034F97F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3E55A7B1F42AB230034F97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3E55A7D1F42AB230034F97F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8C84E3748CB32FA53CDA29 /* Pods-FridaExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8KMZQX7T4V;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FridaExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.dingding.FridaExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3E55A7E1F42AB230034F97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06D26479FD59D7DCF2F3B7A /* Pods-FridaExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8KMZQX7T4V;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FridaExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.dingding.FridaExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3E55A601F42AB230034F97F /* Build configuration list for PBXProject "FridaExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E55A7A1F42AB230034F97F /* Debug */,
+				B3E55A7B1F42AB230034F97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3E55A7C1F42AB230034F97F /* Build configuration list for PBXNativeTarget "FridaExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E55A7D1F42AB230034F97F /* Debug */,
+				B3E55A7E1F42AB230034F97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3E55A5D1F42AB230034F97F /* Project object */;
+}
