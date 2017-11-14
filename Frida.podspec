@@ -122,7 +122,7 @@ Pod::Spec.new do |s|
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
-  s.vendored_frameworks = "FridaGadget.dylib"
+  s.vendored_frameworks = "frida/FridaGadget.dylib"
   s.xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => '$(inherited) @executable_path/Frameworks @loader_path/Frameworks' }
 
 
