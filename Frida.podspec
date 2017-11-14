@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => "wxWindows", :file => "COPYING.txt" }
 
-  s.author             = { "DING Leo"}
+  s.author       = "DING Leo"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -58,7 +58,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:getGate/frida.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/getGate/frida.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
